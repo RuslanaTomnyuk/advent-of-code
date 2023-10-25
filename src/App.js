@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { DayFirst } from "./DayFirst";
+import { DaySecond } from "./DaySecond";
+import { DayThird } from "./DayThird";
+import { DayFourth } from "./DayFourth";
+import { DayFifth } from "./DayFifth";
+import { DaySixth } from "./DaySixth";
+import { DaySeventh } from "./DaySeventh";
+
+import { Testing } from "./Testing";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DayFirst /> */}
+      {/* <DaySecond /> */}
+      {/* <DayThird /> */}
+      {/* <DayFourth /> */}
+      {/* <DayFifth /> */}
+      <DaySixth />
+      <DaySeventh />
+
+      <Testing />
     </div>
   );
 }
