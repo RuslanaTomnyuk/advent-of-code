@@ -1,4 +1,4 @@
-export const firstDayInput = `5104
+export const input = `5104
 6131
 3553
 4496
